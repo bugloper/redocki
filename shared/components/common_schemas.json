@@ -1,0 +1,36 @@
+{
+    "ErrorResponse": {
+        "type": "object",
+        "properties": {
+            "code": {
+                "type": "string"
+            },
+            "message": {
+                "type": "string"
+            },
+            "details": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "PaginationMetadata": {
+        "type": "object",
+        "properties": {
+            "total_items": {
+                "type": "integer"
+            },
+            "page": {
+                "type": "integer"
+            },
+            "page_size": {
+                "type": "integer"
+            },
+            "total_pages": {
+                "type": "integer"
+            }
+        }
+    }
+}

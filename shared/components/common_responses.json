@@ -1,0 +1,23 @@
+{
+  "BadRequest": {
+    "description": "Bad request, invalid input",
+    "content": {
+      "application/json": {
+        "schema": {
+          "$ref": "#/components/schemas/ErrorResponse"
+        }
+      }
+    }
+  },
+  "Unauthorized": {
+    "description": "Authentication required or has failed",
+    "content": {
+      "application/json": {
+        "schema": {
+          "$ref": "#/components/schemas/ErrorResponse"
+        }
+      }
+    }
+  }
+}
+
